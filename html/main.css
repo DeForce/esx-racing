@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    height: 1080px;
+    width: 100%;
+}
+
+.main_ui {
+    font-family: "gta-ui", Verdana, Tahoma;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10.68%;
+    text-shadow: -1px 1px 2px #000, 1px 1px 2px #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    color: #ffffff;
+    left: 16%;
+}
+
+.main_ui_shown {
+    display: block;
+}
+
+.main_ui_hidden {
+    display: none;
+}
+
+.total_time, .checkpoints, .laps, .lap_time {
+    display: flex
+}
+
+.total_time_text, .checkpoints_text, .lap_text, .lap_time_text {
+    margin-right: 5px;
+}
